@@ -9,9 +9,8 @@ Hedefin belleğine yerleşen ve bize komut satırı açan **Meterpreter** ajanı
 ---
 
 ## 2.Çalıştırma Rehberi (Sistemi Nasıl Hackleriz?)
-Bu ödevi test etmek için ekstra bir kurulum yapmanıza gerek yoktur, 2. Ödevde oluşturduğumuz zafiyetli Docker makinesinin (`kurban-makine`) bilgisayarınızda
+Bu ödevi test etmek için ekstra bir kurulum yapmamıza gerek yoktur, 2. Ödevde oluşturduğumuz zafiyetli Docker makinesinin (`kurban-makine`) bilgisayarımızda
 çalışır durumda olması yeterlidir.
-Öncelikle hedefin (Windows/Docker) ve saldırgan makinenin (Kali Linux) güncel IP adreslerini not alın. 
 Ardından Kali Linux terminalinde `msfconsole` yazarak Metasploit aracını başlatın.Daha sonrasında Metasploit komut satırında sırasıyla şu ayarları girerek 
 siber silahımızı hedef için yapılandırıyoruz:
 ```bash
